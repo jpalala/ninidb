@@ -24,16 +24,16 @@ Thin PDOWrapper is a
 FAQ
 ---
 
-What did you add?
-================
-I added functions Update/Delete which calls the parent class update delete functions - kinda useless, I know, but in the future maybe maybe I can  add logging via exception handling functionality.
+*What did you add?*
 
-Saw some inspiration from codeignite, and added the get_where function as well.
+- I added functions Update/Delete which calls the parent class update delete functions - kinda useless, I know, but in the future maybe maybe I can  add logging via exception handling functionality.
 
-I also added custom query functions (execq,simpleSelect) which call functions already built into [thin pdo wrapper](https://github.com/mikehenrty/thin-pdo-wrapper "Thin PDO Wrapper github").
+- As I took inspiration from Codeignite - I added the get_where function as well.
 
-License?
-========
-It's free for you to use. It would be nice if you could contribute.. :) 
+- I also added custom query functions (execq,simpleSelect) which call functions already built into [thin pdo wrapper](https://github.com/mikehenrty/thin-pdo-wrapper "Thin PDO Wrapper github").
 
-I plan to add more features based off codeignite functions.
+*License?*
+
+- It's free for you to use. It would be nice if you could contribute.. :) 
+
+- I plan to add more features based off codeignite functions.
